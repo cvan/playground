@@ -1,0 +1,20 @@
+{
+  "name": "playground",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Playground",
+  "main": "index.js",
+  "repository": "cvan/playground",
+  "license": "MIT",
+  "dependencies": {
+    "express.io": "^1.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "prod": "NODE_ENVIRONMENT='production' node index.js",
+    "dev": "NODE_ENVIRONMENT='development' nodemon index.js"
+  }
+}
